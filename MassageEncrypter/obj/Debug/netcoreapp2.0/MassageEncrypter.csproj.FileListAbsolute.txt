@@ -1,0 +1,9 @@
+C:\Users\Malik\source\repos\MassageEncrypter\MassageEncrypter\bin\Debug\netcoreapp2.0\MassageEncrypter.deps.json
+C:\Users\Malik\source\repos\MassageEncrypter\MassageEncrypter\bin\Debug\netcoreapp2.0\MassageEncrypter.dll
+C:\Users\Malik\source\repos\MassageEncrypter\MassageEncrypter\bin\Debug\netcoreapp2.0\MassageEncrypter.pdb
+C:\Users\Malik\source\repos\MassageEncrypter\MassageEncrypter\obj\Debug\netcoreapp2.0\MassageEncrypter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Malik\source\repos\MassageEncrypter\MassageEncrypter\obj\Debug\netcoreapp2.0\MassageEncrypter.AssemblyInfoInputs.cache
+C:\Users\Malik\source\repos\MassageEncrypter\MassageEncrypter\obj\Debug\netcoreapp2.0\MassageEncrypter.AssemblyInfo.cs
+C:\Users\Malik\source\repos\MassageEncrypter\MassageEncrypter\obj\Debug\netcoreapp2.0\MassageEncrypter.csproj.CoreCompileInputs.cache
+C:\Users\Malik\source\repos\MassageEncrypter\MassageEncrypter\obj\Debug\netcoreapp2.0\MassageEncrypter.dll
+C:\Users\Malik\source\repos\MassageEncrypter\MassageEncrypter\obj\Debug\netcoreapp2.0\MassageEncrypter.pdb

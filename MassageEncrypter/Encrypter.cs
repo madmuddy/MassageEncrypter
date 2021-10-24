@@ -3,50 +3,9 @@ using System.Collections.Generic;
 
 namespace MassageEncrypter
 {
-    class Program
+    public static class Encrypter
     {
-        static void Main(string[] args)
-        {
-            while (true)
-            {
-                try
-                {
-                    Console.ForegroundColor = ConsoleColor.Green;
-
-                    Say("1: Encrypt\n2: Decrypt\n\nSelection: ");
-
-                    if (Convert.ToInt32(Get()) == 1)
-                    {
-                        Say("Enter Text to Encrypt :-\n");
-
-                        Console.ForegroundColor = ConsoleColor.White;
-
-                        Say("_______________________________________________________________________\n" + Encrypt(Get()) + "\n_______________________________________________________________________\n");
-
-
-                        Get();
-                        Say("------------------------------ New Session ------------------------------");
-                    }
-                    else
-                    {
-                        Say("Enter Text to Decrypt :-\n");
-
-                        Console.ForegroundColor = ConsoleColor.Red;
-
-                        Say("_______________________________________________________________________\n" + Decrypt(Get()) + "\n_______________________________________________________________________\n");
-
-                        Get();
-                        Say("------------------------------ New Session ------------------------------");
-                    }
-                }
-                catch
-                {
-                    Say("\nError Occured!\n");
-                }
-            }
-        }
-
-        static string Encrypt(string text)
+        public static string Encrypt(string text)
         {
             List<string> decs = new List<string>();
 
@@ -57,7 +16,6 @@ namespace MassageEncrypter
 
             foreach (char word in text)
             {
-
                 switch (word)
                 {
                     case 'a':
@@ -180,7 +138,7 @@ namespace MassageEncrypter
             return enceryptedData;
         }
 
-        static string Decrypt(string text)
+        public static string Decrypt(string text)
         {
             List<string> decs = new List<string>();
 
@@ -191,7 +149,6 @@ namespace MassageEncrypter
 
             foreach (char word in text)
             {
-
                 switch (word)
                 {
                     case 'a':
@@ -312,16 +269,6 @@ namespace MassageEncrypter
             }
 
             return enceryptedData;
-        }
-
-        static void Say(string text)
-        {
-            Console.WriteLine(text);
-        }
-
-        static string Get()
-        {
-            return Console.ReadLine();
         }
     }
 }

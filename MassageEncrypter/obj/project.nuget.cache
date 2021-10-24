@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "ZaIPqbXzuE4JCPfsuQvUECdQZw9YmZaManmPfl9qRkhla3HX7gfbuqbT03FQysAqTIyAftosb+tnf/G/bvyq5Q==",
+  "dgSpecHash": "iWq9DMRqr/W3ldRz2wDi9RpFYEQ5kdgUVRUQ88i5fnYnErVzUC51FdGoRwQvmKLXc5CcKOapTwicrkb50ecwOw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Malik\\source\\repos\\MassageEncrypter\\MassageEncrypter\\MassageEncrypter.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Malik\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\Malik\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\Malik\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\Malik\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\Malik\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Malik\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
